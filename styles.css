@@ -61,7 +61,9 @@ ul{
     justify-content:center;
     align-items:center;
     text-align:center;
-    background-image:url(Assets/hero.avif)
+    background-image:url(Assets/hero.avif);
+    background-size:cover;
+    background-position:center;
 }
 #hero-text1{
     color:white;
