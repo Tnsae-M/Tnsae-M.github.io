@@ -103,6 +103,22 @@ ul{
     max-width:1200px;
     margin:0 auto;
 }
+@media only screen and (min-width:768px and max-width:992px){
+    .movie-grid{
+        grid-template-column:repeat(3,1fr);
+    }
+}
+@media only screen and (max-width:768px and min-width:600px){
+     .movie-grid{
+        grid-template-column:repeat(2,1fr);
+    }
+}
+@media only screen and (max-width:600px){
+    .movie-grid{
+        grid-template-column:1fr;
+    }
+}
+
 .option-header{
     text-align:center;
     margin: 15px; 
