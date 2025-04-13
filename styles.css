@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+}
+p{
+    margin:10px;
+    text-align:center;
+    padding:10px;
+}
+h1{
+    text-align:center;
+    padding:10px;
+    margin:10px;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#f4f4f4;
+}
+img{
+    max-width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:5px;
+}
+.header{
+    background-color:rgba(0, 0, 0, 0.878);
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    z-index:100;
+    padding:10px;
+    align-items:center;
+}
+.logo{
+    color:red;
+}
+.list{
+    padding:10px;
+}
+.list:hover{
+    color:red;
+}
+#home{
+    color:red;
+}
+ul{
+    list-style:none;
+    display:flex;
+    
+}
+/*hero section*/
+.hero{
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-image:url(assets/hero.avif)
+}
+#hero-text1{
+    color:white;
+    font-size:2.7rem;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+#hero-text2{
+    color:white;
+    font-size:20px;
+    justify-content: center;
+}
+.btn{
+    display: inline-block;
+    
+    color:white;
+    background-color:red;
+    border:none;
+    border-radius:5px;
+    margin-top:15px;
+    padding:10px 20px;
+    font-weight:bold;}
+.btn:hover{
+    background-color:rgb(182, 19, 19);
+    display:inline-block;
+    text-decoration:none;
+}
+/* movie-card-section */
+.movie-card-section{
+    padding:60px 20px;
+    background-color:#f9f9f9;
+}
+.movie-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+    max-width:1200px;
+    margin:0 auto;
+}
+.option-header{
+    text-align:center;
+    margin: 15px; 
+    padding: 15px;
+}
+.movie-option{
+    
+    border-radius: 5px;
+    padding:10px;
+    margin:10px;
+    background-color:white;
+    overflow:hidden;
+    box-shadow:
+}
+.movie-option:hover{
+    transform:scale(1.1);
+    transition : transform 0.3s;
+}
+.movie-img{
+    max-width:100%;
+    border-radius:5px;
+    height:300px;
+    object-fit:cover;
+    overflow:hidden;
+}
+.genre{
+    color:gray;
+    font-size:small;
+    text-align:left;
+    margin:0;
+}
+.book-button{
+   color:white;
+   background-color:red;
+   padding:10px;
+   border-radius:5px;
+  
+   
+}.book-button:hover{
+    background-color:rgb(149, 14, 14);
+}
+h1{
+    text-align:center;
+    font-size:2.1rem;
+}
+/* features-section */
+.features{
+    padding:60px 20px;
+    background-color:#f9f9f9;
+    box-shadow:0 4px 6px rgba(181, 169, 169, 0.282);
+    border-radius:10px;
+}
+.features-grid{
+    display:flex;
+    justify-content:space-between;
+    max-width:1200px;
+    gap:30px;
+    margin:0 auto;
+}
+.feature-header{
+    text-align:center;
+    margin:10px;
+    padding:10px;
+    font-size:2rem;
+}
+.features-icon{
+    font-size:3rem;
+    text-align:center;
+}
+.features h3{
+    text-align:center;
+}
+/* booking section */
+
+.booking-section{
+    /* background-color: #f9f9f922; */
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    margin:10px;
+
+}
+.booking-container{
+   width:60%;
+}
+.form-group{
+    max-width:100%;
+    display:flex;
+    flex-direction:column;
+}
+.input-bar{
+    height:30px;
+    margin:5px;
+    max-width:100%;
+}
+.booking-container{
+    background-color:white;
+    padding:10px 75px;
+    margin:10px;
+    border-radius:10px;
+}
+#book-btn{
+    background-color:rgb(219, 18, 18);
+    border:none;
+    margin:5px;
+    width:100%;
+    font-weight:bold;
+    height:40px;
+}
+#book-btn:hover{
+    background-color:rgb(149, 14, 14);
+}
+/* footer section */
+.footer-section{
+    background-color:black;
+    color:white;
+    padding:10px;
+    box-sizing:border-box;
+}
+.motos,.links,.contacts-box{
+
+    text-align:start;
+    padding:5px;
+   margin:5px;
+}
+.footer-titles{
+    color:red;
+    font-size:20px;
+    margin:0;
+}
+.footer-section .motos h5{
+    text-align:start;
+    margin:1px;
+    padding:0;
+    font-size:15px;
+    font-weight: normal;
+}
+
+.footer-section .links a{
+    text-decoration:none;
+    color:white; 
+}
+.footer-section .links a:hover{
+    color:red;
+}
+.copyright{
+    border-top-color:white;
+    border-top-width: 2px;
+    margin:5px;
+}
